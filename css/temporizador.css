@@ -1,0 +1,13 @@
+body {
+
+  background:black;
+
+}
+
+div {
+  width:500px;
+  margin:20px auto;
+  color:white;
+  text-align: center;
+  font-size: 50px;
+}

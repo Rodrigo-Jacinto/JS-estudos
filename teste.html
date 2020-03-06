@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Testando JavaScript</title>
+
+
+  <script>
+
+  window.onload = function() {
+
+    let nome = "Alura";
+    var mata = setInterval(horas, 1000);
+    var btn = document.querySelector("#botao");
+    btn.addEventListener("dblclick", function(evt) {
+
+      clearInterval(mata);
+      alert(typeof(mata))
+    });
+
+    var diva = document.querySelector("#cont");
+
+    diva.addEventListener("mousemove", function() {
+
+      document.querySelector("#tecont").innerHTML = "Mouse Entrou na Div";
+
+    });
+
+    diva.addEventListener("mouseleave", function(){
+
+      var tt = confirm("É nois");
+      alert(tt);
+    });
+
+
+
+
+    function horas() {
+      var data = new Date();
+      var horas = data.getHours() + ":" + data.getMinutes() + ":"+ data.getSeconds();
+      document.querySelector("#te").innerHTML = horas;
+
+    }
+
+
+  }
+
+
+  </script>
+
+</head>
+
+<body>
+
+  <p id="te" style="color:blue;"></p>
+  <button type="button" id="botao">Adiciona Pessoa</button>
+
+  <button type="button" onclick="alert('você clicou no botão 2');">Evento 2</button>
+
+
+  <div style="background-color:#45AB90; width:300px; height:300px;" id="cont">
+
+    <p id="tecont" style="font-size:20px; color:white"></p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <title>Java Sicript</title>
+
+  <style>
+
+  body {
+    background:black;
+  }
+
+  .imagem {
+
+    display:block;
+    margin: 20px auto;
+  }
+
+  </style>
+
+  <script>
+  /*
+  ---Função Externa de Javascript---
+  function ligar() {
+  document.getElementById("imagem").src = "img/on.png";
+}
+
+*/
+</script>
+
+</head>
+
+<body>
+
+  <img src="img/off.png" alt="lampada" class="imagem" id="imagem">
+  <button id="btn">Mostra dados</button>
+  <button type='button' onclick='pegaDados();'>Pega Nome</button>
+  <button type='button' onclick='operadoresMatematicos();'>Operadores Matematicos</button>
+  <button type='button' onclick='operadoresComparacao();'>Operadores Comparação</button>
+  <button type='button' onclick='operadoresEspeciais();'>Operadores Especiais</button>
+  <!--
+  ------Eventos Java Script Inline--------
+  <img src="img/off.png" onclick="ligar();" alt="lampada" class="imagem" id="imagem">
+  <img src="img/off.png" onmouseover="alert('Voce passou na imagem');" alt="lampada" class="imagem">
+  <img src="img/off.png" onclick="alert('Voce clicou na imagem');" alt="lampada" class="imagem">
+
+-->
+<script src="js/eventos.js"></script>
+</body>
+
+</html>

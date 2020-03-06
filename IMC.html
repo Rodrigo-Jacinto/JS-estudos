@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-BR">
+
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/imc-estilo.css">
+      <title>Calculo IMC</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <img src="img/imc.png" alt='imc'>
+            <form method="get">
+
+              <fieldset>
+
+                <legend>Calculo IMC</legend>
+
+                  <label for="peso">Peso(Kg):</label>
+                  <input type="number" id="peso" name="peso" class="campo campo-peso" placeholder="Peso"><br />
+
+                  <label for="metro">Metros:</label>
+                  <input type="number" id="metro" name="metro" class="campo campo-metro" placeholder="Metros"><br />
+
+                  <label for="centimetros">Centimetros</label>
+                  <input type="number" id="cm" name="centimetros" class="campo campo-cm" placeholder="CM"><br />
+
+                    <label>IMC:</label>
+                  <input type="number" id="imc" name="imc" class="campo campo-imc" disabled><br />
+
+                  <button class="btn" id="calcular">Calcular</button>
+
+                <script src="js/imc.js"></script>
+              </fieldset>
+            </form>
+        </div>
+
+
+
+    </body>
+
+</html>

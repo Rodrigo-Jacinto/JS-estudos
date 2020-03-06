@@ -1,0 +1,6 @@
+[0725/224455.283:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0725/224455.367:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0725/224455.368:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0726/132035.406:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)
+[0726/132035.422:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0726/132035.422:ERROR:crash_report_database_win.cc(569)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: O sistema não pode encontrar o caminho especificado. (0x3)

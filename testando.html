@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Js</title>
+
+    <script type="text/javascript">
+            window.onload = function(){
+            var nomes = [" Rodrigo", " Robson", " Margarida"];
+            nomes.unshift("inicio");
+            nomes.shift();
+
+              document.querySelector(".botao").onclick = function(){
+                      var paragrafo = document.getElementsByTagName("p");
+                      paragrafo[0].innerHTML = nomes;
+                }
+
+              setInterval(mudaImage, 3000);
+
+        var campo_pesquisa =  document.getElementsByTagName("input")[0];
+        campo_pesquisa.addEventListener("keydown", function(){
+
+              var valor = this.value;
+                alert(valor);
+        });
+        }//Fim do onload
+
+        function mudaImage(){
+          document.getElementsByTagName("img")[0].src = "img/css.jpg";
+
+          var data = new Date();
+          document.getElementsByTagName("div")[0].innerHTML = data;
+        }
+
+        function mudaImageTwo(){
+
+          document.getElementsByTagName("img")[0].src = "img/javas.png";
+
+        }
+        function olaMundo(){
+
+          alert("Olá Mundo");
+        }
+    </script>
+
+  </head>
+  <body>
+
+      <p>
+
+      </p>
+
+      <p>
+
+        <button id="btn" class="botao">Array</button>
+      </p>
+
+      <img src="img/python.jpg" alt="" />
+
+      <div>
+
+      </div>
+
+      <input type="search" name="name" value="" autofocus>
+
+  </body>
+</html>

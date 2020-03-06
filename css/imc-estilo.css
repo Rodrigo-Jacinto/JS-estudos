@@ -1,0 +1,60 @@
+.campo {
+
+  margin-bottom:10px;
+  width:195px;
+  height:33px;
+  font-size:20px;
+
+}
+
+label,legend {
+
+  font-family: "Arial Black";
+  font-size:15px;
+  color:white;
+
+}
+.container {
+
+  border:1px ridge black;
+  width:650px;
+  height:600px;
+  margin:25px auto;
+  background: #1E8BC3;
+
+}
+
+fieldset {
+
+  border:5px ridge #D91E18;
+  width:350px;
+  height:300px;
+  margin: 10px auto;
+
+}
+img {
+
+  display:block;
+}
+
+.btn{
+
+    margin-left:80px;
+    margin-top: 20px;
+    border:1px solid #CF000F;
+    color:white;
+    background: #CF000F;
+    font-family:"Arial Black";
+    font-size: 25px;
+    width:170px;
+    height:50px;
+
+}
+
+.btn:hover {
+
+  color:#19B5FE;
+  box-shadow: 5px 5px 10px #ABB7B7;
+
+
+}
